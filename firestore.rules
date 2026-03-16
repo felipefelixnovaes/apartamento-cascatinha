@@ -1,0 +1,25 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Leads — write via API only, read for admin
+    match /leads/{leadId} {
+      allow read: if request.auth != null;
+      allow create: if true; // MVP: open create, secure with Functions in production
+      allow update, delete: if request.auth != null;
+    }
+
+    // Events (optional)
+    match /events/{eventId} {
+      allow read: if request.auth != null;
+      allow create: if true;
+      allow update, delete: if false;
+    }
+
+    // Deny all other access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
