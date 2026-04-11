@@ -39,11 +39,13 @@ export default function Home() {
         {/* 6. Proximidades */}
         <NearbyPlacesSection />
 
-        {/* 6. Estilo de vida */}
-        <LifestyleSection />
+
 
         {/* 7. Mapa */}
         <MapSection />
+
+        {/* 6. Estilo de vida */}
+        <LifestyleSection />
 
         {/* 8. FAQ */}
         <FAQSection />

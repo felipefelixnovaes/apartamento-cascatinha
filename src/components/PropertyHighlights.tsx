@@ -9,6 +9,7 @@ const iconMap: Record<string, string> = {
   car: '🚗',
   sun: '☀️',
   building: '🏢',
+  kitchen: '🍳',
 };
 
 export default function PropertyHighlights() {

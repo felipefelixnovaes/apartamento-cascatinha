@@ -13,9 +13,9 @@ export const property = {
 
   // ─── Highlights rápidos (Hero) ───────────────────────────
   quickHighlights: [
-    { icon: 'ruler', label: '140 m²' },
+    { icon: 'ruler', label: '120 m²' },
     { icon: 'layout', label: '11 Ambientes' },
-    { icon: 'bed', label: '3 Quartos + 1 Reversível' },
+    { icon: 'bed', label: '3 Quartos + 1 Escritório Amplo' },
     { icon: 'bath', label: '2 Banheiros' },
     { icon: 'car', label: '1 Vaga' },
     { icon: 'sun', label: 'Cobertura Ampla' },
@@ -25,23 +25,23 @@ export const property = {
   highlights: [
     {
       icon: 'ruler',
-      title: '140 m² de área',
+      title: '120 m² de área',
       description: 'Metragem excelente distribuída em 11 ambientes.',
     },
     {
       icon: 'bed',
-      title: '3 Quartos + Flex',
-      description: 'Sendo 3 quartos mais um cômodo reversível (ideal para escritório, closet ou quarto extra).',
+      title: '3 Quartos + 1 Escritório Amplo',
+      description: '3 quartos mais um escritório amplo, sendo 2 quartos no primeiro andar. Área totalmente reservada no segundo andar',
     },
     {
       icon: 'bath',
-      title: '2 Banheiros',
-      description: 'Dois banheiros bem distribuídos para atender a rotina da casa com praticidade.',
+      title: '2 Banheiros Completos',
+      description: 'Dois banheiros completos, um em cada andar, distribuídos para atender a rotina da casa com praticidade.',
     },
     {
       icon: 'car',
-      title: '1 Vaga coberta',
-      description: 'Vaga demarcada em garagem com portão automático.',
+      title: '1 Vaga coberta e demarcada',
+      description: 'Vaga coberta e demarcada em garagem com portão automático.',
     },
     {
       icon: 'sun',
@@ -60,14 +60,14 @@ export const property = {
   // ─── Descrição comercial ────────────────────────────────
   description: `Esta cobertura no Cascatinha combina espaço interno bem distribuído em 11 ambientes, localizacao estrategica e uma vista aberta para a mata da UFJF, criando uma sensacao rara de tranquilidade dentro da cidade.
 
-Com 140 m² de area, os ambientes favorecem uma rotina confortavel para familias. A sala e cozinha espaçosas, a área de serviço separada com despensa, os 3 quartos (mais um cômodo flexível para escritório ou closet), os 2 banheiros e a ampla cobertura coberta reforcam a versatilidade do imóvel.
+Com 120 m² de area, os ambientes favorecem uma rotina confortavel para familias. A sala e cozinha espaçosas, a área de serviço separada com despensa, os 3 quartos (mais um cômodo flexível para escritório ou closet), os 2 banheiros e a ampla cobertura coberta reforcam a versatilidade do imóvel.
 
 Em vez de prometer luxo artificial, o grande diferencial aqui esta na combinacao entre planta muito bem aproveitada, localizacao, vista para o verde e margem real de valorizacao em uma das regioes mais procuradas de Juiz de Fora.`,
 
   // ─── Detalhes técnicos ──────────────────────────────────
   details: [
     { label: 'Tipo', value: 'Cobertura Duplex' },
-    { label: 'Área Total', value: '140 m²' },
+    { label: 'Área Total', value: '120 m²' },
     { label: 'Quartos', value: '3 + 1 Flex' },
     { label: 'Ambientes', value: '11' },
     { label: 'Banheiros', value: '2' },
@@ -97,7 +97,6 @@ Em vez de prometer luxo artificial, o grande diferencial aqui esta na combinacao
       items: [
         { name: 'UFJF (Universidade Federal)', distance: '3 km', time: '8 min de carro' },
         { name: 'CES-JF', distance: '2,5 km', time: '6 min de carro' },
-        { name: 'Estácio de Sá', distance: '4 km', time: '12 min de carro' },
       ],
     },
     {
@@ -115,6 +114,7 @@ Em vez de prometer luxo artificial, o grande diferencial aqui esta na combinacao
       icon: 'cart',
       items: [
         { name: 'Supermercado Bahamas', distance: '300 m', time: '3 min a pé' },
+        { name: 'BH', distance: '300 m', time: '3 min a pé' },
       ],
     },
     {
@@ -310,7 +310,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
 
   // ─── Contato / WhatsApp ─────────────────────────────────
   contact: {
-    phone: '5532999999999', // substituir pelo número real
+    phone: '5532988999679', // número atualizado conforme pedido
     whatsappMessage:
       'Olá! Tenho interesse na cobertura no Cascatinha e gostaria de mais informações.',
     email: 'contato@imobiliaria.com.br', // substituir pelo e-mail real
@@ -321,25 +321,24 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
 
   // ─── Galeria ────────────────────────────────────────────
   gallery: [
-    { src: '/images/gallery/01-quarto-vista.png', alt: 'Quarto com piso laminado e vista para o verde', category: 'Quartos' },
-    { src: '/images/gallery/02-quarto-porta.png', alt: 'Quarto espaçoso com piso laminado madeira', category: 'Quartos' },
-    { src: '/images/gallery/03-quarto-corredor.png', alt: 'Quarto com excelente iluminação natural', category: 'Quartos' },
-    { src: '/images/gallery/04-quarto-janela.png', alt: 'Quarto amplo com grande janela', category: 'Quartos' },
-    { src: '/images/gallery/05-sala-ampla.png', alt: 'Sala de estar ampla com piso laminado', category: 'Salas' },
-    { src: '/images/gallery/06-sala-escada.png', alt: 'Detalhe da sala com escada de acesso', category: 'Salas' },
-    { src: '/images/gallery/07-cozinha.png', alt: 'Cozinha com bancada em granito preto', category: 'Cozinha e Despensa' },
+    { src: '/images/gallery/01-quarto-vista.png', alt: 'Quarto 1 com piso laminado e vista para a natureza', category: 'Quartos' },
+    { src: '/images/gallery/02-quarto-porta.png', alt: 'Quarto 1 bem iluminado e espaçoso com piso laminado madeira', category: 'Quartos' },
+    { src: '/images/gallery/03-quarto-corredor.png', alt: 'Quarto 2 com excelente iluminação natural', category: 'Quartos' },
+    { src: '/images/gallery/04-quarto-janela.png', alt: 'Quarto 2 com vista para natureza', category: 'Quartos' },
+    { src: '/images/gallery/06-sala-escada.png', alt: 'Sala com vista para entrada e cozinha', category: 'Salas' },
+    { src: '/images/gallery/07-cozinha.png', alt: 'Cozinha com bancada em granito preto (São Gabriel)e armários', category: 'Cozinha e Despensa' },
 
-    { src: '/images/gallery/09-area-servico.png', alt: 'Primeira área de serviço com tanque', category: 'Serviço' },
-    { src: '/images/gallery/10-cozinha-pia.png', alt: 'Bancada espaçosa da cozinha em granito', category: 'Cozinha e Despensa' },
-    { src: '/images/gallery/11-despensa.png', alt: 'Despensa e área de apoio', category: 'Cozinha e Despensa' },
+    { src: '/images/gallery/09-area-servico.png', alt: 'Área de serviço adjacente a cozinha com tanque', category: 'Serviço' },
     { src: '/images/gallery/12-area-servico-2.png', alt: 'Segunda área de serviço com armários', category: 'Serviço' },
+    { src: '/images/gallery/10-cozinha-pia.png', alt: 'Bancada espaçosa da cozinha em granito São Gabriel', category: 'Cozinha e Despensa' },
+    { src: '/images/gallery/11-despensa.png', alt: 'Vista ampla da cozinha para área de entrada', category: 'Cozinha e Despensa' },
     { src: '/images/gallery/13-despensa-prateleiras.png', alt: 'Despensa com prateleiras de madeira rústica', category: 'Cozinha e Despensa' },
     { src: '/images/gallery/14-prateleiras.png', alt: 'Espaço despensa organizado com prateleiras largas', category: 'Cozinha e Despensa' },
     { src: '/images/gallery/15-cozinha-panoramica.png', alt: 'Visão panorâmica da cozinha e acessos', category: 'Cozinha e Despensa' },
     { src: '/images/gallery/16-terraco.png', alt: 'Terraço coberto amplo e arejado', category: 'Terraço Gourmet' },
     { src: '/images/gallery/17-terraco-pia.png', alt: 'Área de apoio do terraço com pia', category: 'Terraço Gourmet' },
-    { src: '/images/gallery/18-terraco-balcao.jpeg', alt: 'Terraço com balcão de alvenaria', category: 'Terraço Gourmet' },
-    { src: '/images/gallery/19-terraco-espaco.jpeg', alt: 'Visão geral do espaço no terraço coberto', category: 'Terraço Gourmet' },
+    { src: '/images/gallery/18-terraco-balcao.png', alt: 'Terraço com balcão de alvenaria e acabamento limpo', category: 'Terraço Gourmet' },
+    { src: '/images/hero-bg.png', alt: 'Vista limpa e ampla do terraço coberto', category: 'Terraço Gourmet' },
     { src: '/images/gallery/20-terraco.jpeg', alt: 'Terraço espaçoso para lazer', category: 'Terraço Gourmet' },
     { src: '/images/gallery/21-terraco-balcao2.jpeg', alt: 'Detalhe do balcão no terraço', category: 'Terraço Gourmet' },
     { src: '/images/gallery/22-terraco-pia2.jpeg', alt: 'Pia e área de serviço externa no terraço', category: 'Terraço Gourmet' },
@@ -350,7 +349,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     { src: '/images/gallery/improved_room_1.png', alt: 'Quarto superior amplo', category: 'Quartos' },
     { src: '/images/gallery/improved_room_2.png', alt: 'Quarto superior reformado', category: 'Quartos' },
     { src: '/images/gallery/improved_room_3.png', alt: 'Quarto com boa iluminação natural', category: 'Quartos' },
-    { src: '/images/gallery/improved_room_4.png', alt: 'Cômodo reversível espaçoso', category: 'Quartos' },
+    { src: '/images/gallery/improved_room_4.png', alt: 'Escritório Amplo', category: 'Quartos' },
     { src: '/images/gallery/improved_room_5.png', alt: 'Segundo ambiente do pavimento superior', category: 'Quartos' },
     { src: '/images/gallery/improved_room_6.png', alt: 'Potencial para escritório ou closet', category: 'Quartos' },
     { src: '/images/gallery/improved_room_7.png', alt: 'Excelente espaço para adaptação de novos cômodos', category: 'Quartos' },
@@ -374,10 +373,10 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
 
   // ─── SEO ────────────────────────────────────────────────
   seo: {
-    title: 'Cobertura à Venda no Cascatinha | Juiz de Fora — 3 Quartos, 140m²',
+    title: 'Cobertura à Venda no Cascatinha | Juiz de Fora — 3 Quartos, 120m²',
     description:
-      'Cobertura exclusiva no Cascatinha, Juiz de Fora. 140m², 3 quartos, 2 banheiros, terraço gourmet, 1 vaga. Localização estratégica próxima a universidades e shopping. Agende sua visita!',
-    ogImage: '/images/og-image.jpg',
+      'Cobertura exclusiva no Cascatinha, Juiz de Fora. 120m², 3 quartos, 2 banheiros, terraço gourmet, 1 vaga. Localização estratégica próxima a universidades e shopping. Agende sua visita!',
+    ogImage: '/images/hero-bg.png',
   },
 } as const;
 

@@ -22,7 +22,7 @@ export default function HeroSection() {
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <Image
-        src="/images/gallery/19-terraco-espaco.jpeg"
+        src="/images/hero-bg.png"
         alt="Cobertura no Cascatinha com vista para o verde"
         fill
         className="object-cover"
@@ -99,29 +99,26 @@ export default function HeroSection() {
             {property.cta.primary}
           </a>
 
-          <a
-            href="#contato"
-            className="btn-outline text-lg"
-            onClick={() => trackCTAClick('hero_form')}
-          >
-            {property.cta.secondary}
-          </a>
         </div>
 
-        {/* Price hint */}
-        <p
-          className="mt-8 text-white/60 text-sm"
-          style={{ animation: 'fade-up 0.7s ease-out 1s forwards', opacity: 0 }}
-        >
-          {property.price} · {property.priceNote}
-        </p>
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
-        <div className="w-6 h-10 rounded-full border-2 border-white/40 flex items-start justify-center p-1">
-          <div className="w-1.5 h-3 bg-white/60 rounded-full animate-bounce" />
-        </div>
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 animate-bounce">
+        <span className="text-white/50 text-xs font-light tracking-widest uppercase">Role para ver mais</span>
+        <svg 
+          width="32" 
+          height="32" 
+          viewBox="0 0 24 24" 
+          fill="none" 
+          stroke="currentColor" 
+          strokeWidth="1.5" 
+          strokeLinecap="round" 
+          strokeLinejoin="round" 
+          className="text-white/60"
+        >
+          <path d="M7 13l5 5 5-5M7 6l5 5 5-5" />
+        </svg>
       </div>
     </section>
   );
