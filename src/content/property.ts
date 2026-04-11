@@ -72,7 +72,7 @@ Em vez de prometer luxo artificial, o grande diferencial aqui esta na combinacao
     { label: 'Ambientes', value: '11' },
     { label: 'Banheiros', value: '2' },
     { label: 'Vagas', value: '1 coberta' },
-    { label: 'Condomínio', value: 'R$ 545/mês' },
+    { label: 'Condomínio', value: 'R$ 513/mês' },
     { label: 'IPTU', value: 'R$ 280/mês' },
     { label: 'Financiamento', value: 'Aceita' },
     { label: 'Andar', value: 'Cobertura' },
@@ -85,10 +85,10 @@ Em vez de prometer luxo artificial, o grande diferencial aqui esta na combinacao
       icon: 'school',
       items: [
         { name: 'Colégio Cascatinha', distance: '600 m', time: '2 min de carro' },
-        { name: 'Centro Educacional Estrela Mágica', distance: '800 m', time: '3 min de carro' },
-        { name: 'Sistema Degraus de Ensino', distance: '1 km', time: '4 min de carro' },
-        { name: 'Centro Educacional Aguiar Celeghini', distance: '1,2 km', time: '5 min de carro' },
-        { name: 'Escola ABC & Colégio Integração', distance: '1,5 km', time: '5 min de carro' },
+        { name: 'Brincks School', distance: '170 m', time: '2 min a pé' },
+        { name: 'Escola Ricardo Moysés Jr.', distance: '450m', time: '5 min a pé' },
+        { name: 'International School Saci', distance: '1,1 km', time: '4 min de carro' },
+        { name: 'Colégio Sarah Dawsey', distance: '1,2 km', time: '4 min de carro' },
       ],
     },
     {
@@ -96,33 +96,29 @@ Em vez de prometer luxo artificial, o grande diferencial aqui esta na combinacao
       icon: 'graduation',
       items: [
         { name: 'UFJF (Universidade Federal)', distance: '3 km', time: '8 min de carro' },
-        { name: 'CES-JF', distance: '2,5 km', time: '6 min de carro' },
+        { name: 'Suprema', distance: '4,8 km', time: '10 min de carro' },
+        { name: 'Doctum', distance: '2,0 km', time: '5 min de carro' },
+        { name: 'UNIP', distance: '0,8 km', time: '2 min de carro' },
       ],
     },
     {
-      category: 'Educação e Compras',
+      category: 'Compras e Supermercados',
       icon: 'shopping',
       items: [
         { name: 'Independência Shopping', distance: '1 km', time: '3 min de carro' },
-        { name: 'Universidade Federal de Juiz de Fora (UFJF)', distance: '1,2 km', time: '4 min de carro' },
-        { name: 'Escola Bricks', distance: '170 m', time: '2 min a pé' },
-        { name: 'Escola Ricardo Moisés Junior', distance: '450 m', time: '5 min a pé' },
+        { name: 'Supermercado Empório Bahamas', distance: '300 m', time: '3 min a pé' },
+        { name: 'Supermercado Mart Minas', distance: '5,2 km', time: '10 min de carro' },
+        { name: 'Supermercado BH', distance: '3,3 km', time: '7 min de carro' },
       ],
     },
     {
-      category: 'Supermercados',
-      icon: 'cart',
-      items: [
-        { name: 'Supermercado Bahamas', distance: '300 m', time: '3 min a pé' },
-        { name: 'BH', distance: '300 m', time: '3 min a pé' },
-      ],
-    },
-    {
-      category: 'Farmácias',
+      category: 'Farmácias e Laboratórios de Análises Clínicas',
       icon: 'pharmacy',
       items: [
-        { name: 'Farmácia Araújo', distance: '200 m', time: '2 min a pé' },
+        { name: 'Drogaria Araújo', distance: '200 m', time: '2 min a pé' },
         { name: 'Drogaria Pacheco', distance: '250 m', time: '3 min a pé' },
+        { name: 'Drogaria Indiana', distance: '500m', time: '3 min a pé' },
+        { name: 'Cortes Vilella - Laboratório de Análises Clínicas', distance: '100 m', time: '1 min a pé' },
       ],
     },
     {
@@ -142,11 +138,13 @@ Em vez de prometer luxo artificial, o grande diferencial aqui esta na combinacao
       items: [
         { name: 'Hospital Monte Sinai', distance: '1,2 km', time: '4 min de carro' },
         { name: 'Hospital Unimed', distance: '3 km', time: '7 min de carro' },
+        { name: 'Hospital e Maternidade Terezinha de Jesus', distance: '1,3 km', time: '4 min de carro' },
+        { name: 'Hospital Universitário UFJF - Dom Bosco', distance: '2,0 km', time: '5 min de carro' },
       ],
     },
     {
       category: 'Transporte',
-      icon: 'car',
+      icon: 'bus',
       items: [
         { name: 'Ponto de Ônibus', distance: 'Na porta', time: '0 min' },
       ],
@@ -168,32 +166,32 @@ Em vez de prometer luxo artificial, o grande diferencial aqui esta na combinacao
     {
       question: 'Qual o valor do imóvel?',
       answer:
-        'O valor e condições especiais são informados diretamente pelo corretor. Entre em contato pelo WhatsApp ou formulário para receber uma proposta personalizada.',
+        'O valor e condições especiais são informados diretamente pelo corretor. Entre em contato pelo WhatsApp.',
     },
     {
       question: 'Aceita financiamento?',
       answer:
-        'Sim! O imóvel aceita financiamento bancário. Podemos ajudar com a simulação e indicar os melhores bancos para o seu perfil.',
+        'Sim! O imóvel aceita financiamento bancário.',
     },
     {
       question: 'Qual o valor do condomínio?',
       answer:
-        'O condomínio é de aproximadamente R$ 850/mês, incluindo toda a manutenção em dia das áreas comuns.',
+        'O condomínio é de R$ 513/mês, que inclui: Água e manutenção das áreas comuns 3x por semana. Não tem portaria, mas tem sistema de segurança com alarmes e câmeras.',
     },
     {
       question: 'Quantas vagas de garagem possui?',
       answer:
-        'A cobertura possui 2 vagas cobertas e demarcadas, com portão automático.',
+        'A cobertura possui 1 vaga coberta e demarcada, com portão automático.',
     },
     {
       question: 'O imóvel está vazio ou ocupado?',
       answer:
-        'O imóvel está disponível para visita. Agende pelo WhatsApp ou formulário o melhor horário para você.',
+        'Sim e está disponível para visita. Agende pelo WhatsApp.',
     },
     {
       question: 'Posso agendar uma visita?',
       answer:
-        'Com certeza! Clique no botão do WhatsApp ou preencha o formulário e retornaremos rapidamente para agendar sua visita.',
+        'Com certeza! Clique no botão do WhatsApp e retornaremos rapidamente para agendar sua visita.',
     },
   ],
 
@@ -203,32 +201,10 @@ Em vez de prometer luxo artificial, o grande diferencial aqui esta na combinacao
     subtitle: 'Avaliado pela Caixa Econômica em R$ 470.000 há 3 anos, com estimativa atualizada ultrapassando R$ 575.000.',
     appraisalValue: 'R$ 575.000*',
     appraisalSource: 'Estimativa atualizada (Base: Avaliação Caixa + IPCA/INCC)',
-    description: `Este imóvel vai além de uma moradia — é uma oportunidade concreta de investimento já com margem de segurança. Com a avaliação oficial da Caixa Econômica Federal em R$ 470.000 realizada há 3 anos, aplicando a valorização média imobiliária da região do Cascatinha (em torno de 7% ao ano), o valor de mercado atualizado da cobertura é estimado entre R$ 560.000 a R$ 600.000.
+    description: `Este imóvel vai além de uma moradia, é uma oportunidade concreta de investimento já com margem de segurança. Com a avaliação oficial da Caixa Econômica Federal em R$ 470.000 realizada há 3 anos, aplicando a valorização média imobiliária da região do Cascatinha (em torno de 7% ao ano), o valor de mercado atualizado da cobertura é estimado entre R$ 560.000 a R$ 600.000.
 
 Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que compram, reformam e revendem coberturas neste bairro podem obter margens expressivas de lucro. Veja abaixo o potencial de transformação:`,
-    projects: [
-      {
-        beforeSrc: '/images/before-kitchen.jpg',
-        afterSrc: 'https://placehold.co/800x600/e2e8f0/475569.png?text=Projeto+Gourmet+(Aguardando+IA)',
-        alt: 'Projeto de cozinha gourmet moderna',
-        title: 'Cozinha Gourmet',
-        description: 'Uma reforma na cozinha com ilha em mármore, armários planejados e eletrodomésticos premium pode agregar até 30% de valor ao imóvel.',
-      },
-      {
-        beforeSrc: '/images/before-living.jpg',
-        afterSrc: 'https://placehold.co/800x600/e2e8f0/475569.png?text=Sala+Premium+(Aguardando+IA)',
-        alt: 'Projeto de sala integrada premium',
-        title: 'Sala Integrada Premium',
-        description: 'Ambientes integrados com acabamento de alto padrão, iluminação projetada e parede em ripado de madeira elevam a percepção de valor e modernidade.',
-      },
-      {
-        beforeSrc: '/images/before-terrace.jpg',
-        afterSrc: 'https://placehold.co/800x600/e2e8f0/475569.png?text=Piscina+e+Deck+(Aguardando+IA)',
-        alt: 'Projeto de terraço com piscina e área gourmet',
-        title: 'Terraço Exclusivo',
-        description: 'Transformar o terraço em um espaço com deck, piscina de borda infinita e área gourmet cria uma experiência de morar incomparável — e multiplica o valor de revenda.',
-      },
-    ],
+    projects: [] as { beforeSrc: string; afterSrc: string; alt: string; title: string; description: string }[],
     advantages: [
       { icon: '📈', text: 'Avaliado em R$ 470 mil pela Caixa Econômica' },
       { icon: '🏗️', text: 'Alto potencial de valorização com reforma' },
@@ -272,7 +248,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
       {
         icon: '🌿',
         title: 'Vista para a mata da UFJF',
-        description: 'Imovel de fundos com vista aberta para a mata preservada da Universidade Federal de Juiz de Fora, trazendo mais privacidade e sensacao de tranquilidade.',
+        description: 'Imovel de fundos with vista aberta para a mata preservada da Universidade Federal de Juiz de Fora, trazendo mais privacidade e sensacao de tranquilidade.',
       },
       {
         icon: '🏡',
@@ -287,7 +263,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
       {
         icon: '🏗️',
         title: 'Cobertura em telha colonial',
-        description: 'Todo o segundo andar é coberto com telha colonial, garantindo conforto térmico e estética tradicional.',
+        description: 'Todo o segundo andar é coberto with telha colonial, garantindo conforto térmico e estética tradicional.',
       },
     ],
   },
@@ -329,7 +305,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     { src: '/images/gallery/07-cozinha.png', alt: 'Cozinha com bancada em granito preto (São Gabriel)e armários', category: 'Cozinha e Despensa' },
 
     { src: '/images/gallery/09-area-servico.png', alt: 'Área de serviço adjacente a cozinha com tanque', category: 'Serviço' },
-    { src: '/images/gallery/12-area-servico-2.png', alt: 'Segunda área de serviço com armários', category: 'Serviço' },
+    { src: '/images/gallery/12-area-servico-2.png', alt: 'Área de serviço with varal de teto', category: 'Serviço' },
     { src: '/images/gallery/10-cozinha-pia.png', alt: 'Bancada espaçosa da cozinha em granito São Gabriel', category: 'Cozinha e Despensa' },
     { src: '/images/gallery/11-despensa.png', alt: 'Vista ampla da cozinha para área de entrada', category: 'Cozinha e Despensa' },
     { src: '/images/gallery/13-despensa-prateleiras.png', alt: 'Despensa com prateleiras de madeira rústica', category: 'Cozinha e Despensa' },
@@ -340,24 +316,20 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     { src: '/images/hero-bg-v2.png', alt: 'Vista limpa e ampla do terraço coberto', category: 'Terraço Gourmet' },
     { src: '/images/gallery/21-terraco-balcao2.jpeg', alt: 'Detalhe do balcão no terraço', category: 'Terraço Gourmet' },
     { src: '/images/gallery/22-terraco-pia2.jpeg', alt: 'Pia e área de serviço externa no terraço', category: 'Terraço Gourmet' },
-    { src: '/images/gallery/23-terraco.jpeg', alt: 'Área coberta do terraço superior', category: 'Terraço Gourmet' },
+    { src: '/images/gallery/23-terraco.jpeg', alt: 'Vista entrada terraço', category: 'Terraço Gourmet' },
     { src: '/images/gallery/24-corredor2.jpeg', alt: 'Corredor de acesso no segundo andar', category: 'Corredores e Banheiros' },
-    { src: '/images/gallery/25-banheiro2.png', alt: 'Banheiro superior completo e organizado', category: 'Corredores e Banheiros' },
+    { src: '/images/gallery/25-banheiro2.png', alt: 'Banheiro completo do segundo andar', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/26-banheiro-pia2.jpeg', alt: 'Detalhe da pia do banheiro superior', category: 'Corredores e Banheiros' },
-    { src: '/images/gallery/improved_room_1.png', alt: 'Quarto superior amplo', category: 'Quartos' },
-    { src: '/images/gallery/improved_room_2.png', alt: 'Quarto superior reformado', category: 'Quartos' },
-    { src: '/images/gallery/improved_room_3.png', alt: 'Quarto com boa iluminação natural', category: 'Quartos' },
+    { src: '/images/gallery/improved_room_1.png', alt: 'Quarto 3 andar superior com vista para natureza', category: 'Quartos' },
+    { src: '/images/gallery/improved_room_2.png', alt: 'Visão entrada quarto 3 superior com acesso para escritório', category: 'Quartos' },
+    { src: '/images/gallery/improved_room_3.png', alt: 'Vista escritório, adjacente ao quarto 3 superior', category: 'Quartos' },
     { src: '/images/gallery/improved_room_4.png', alt: 'Escritório Amplo', category: 'Quartos' },
-    { src: '/images/gallery/improved_room_5.png', alt: 'Segundo ambiente do pavimento superior', category: 'Quartos' },
-    { src: '/images/gallery/improved_room_6.png', alt: 'Potencial para escritório ou closet', category: 'Quartos' },
-    { src: '/images/gallery/improved_room_7.png', alt: 'Excelente espaço para adaptação de novos cômodos', category: 'Quartos' },
-    { src: '/images/gallery/35-escada-cima.jpeg', alt: 'Vista inferior da escada de acesso', category: 'Escadas' },
-    { src: '/images/gallery/36-escada-descendo.jpeg', alt: 'Escada interna com acabamento diferenciado', category: 'Escadas' },
-
-    { src: '/images/gallery/improved_bathroom.png', alt: 'Banheiro completo do segundo andar', category: 'Corredores e Banheiros' },
-    { src: '/images/gallery/39-banheiro3-pia.jpeg', alt: 'Pia e mobiliário do terceiro banheiro', category: 'Corredores e Banheiros' },
-    { src: '/images/gallery/40-banheiro3-geral.png', alt: 'Banheiro social amplo e organizado', category: 'Corredores e Banheiros' },
-    { src: '/images/gallery/41-banheiro3-amplo.jpeg', alt: 'Banheiro muito bem conservado no andar superior', category: 'Corredores e Banheiros' },
+    { src: '/images/gallery/improved_room_5.png', alt: 'Vista escada andar superior para inferior', category: 'Quartos' },
+    { src: '/images/gallery/improved_room_6.png', alt: 'Vista escada andar inferior, com armário embutido adega para vinhos', category: 'Quartos' },
+    { src: '/images/gallery/36-escada-descendo.jpeg', alt: 'Vista do andar inferior para andar superior', category: 'Escadas' },
+    { src: '/images/gallery/39-banheiro3-pia.jpeg', alt: 'Banheiro do primeiro andar', category: 'Corredores e Banheiros' },
+    { src: '/images/gallery/40-banheiro3-geral.png', alt: 'Visão geral do banheiro completo primeiro andar', category: 'Corredores e Banheiros' },
+    { src: '/images/gallery/41-banheiro3-amplo.jpeg', alt: 'Banheiro reformado do primeiro andar', category: 'Corredores e Banheiros' },
   ],
 
   // ─── CTA textos ─────────────────────────────────────────

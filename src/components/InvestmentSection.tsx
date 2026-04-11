@@ -53,37 +53,41 @@ export default function InvestmentSection() {
         </div>
 
         {/* Before/After sliders */}
-        <div className="text-center mb-8">
-          <h3 className="text-2xl font-bold font-display text-primary mb-2">
-            Arraste para ver a <span className="gradient-text">transformação</span>
-          </h3>
-          <p className="text-text-light text-sm">
-            Mova o controle deslizante para comparar o antes e depois dos projetos
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
-          {property.investment.projects.map((project, i) => (
-            <div key={i} className="glass-card overflow-hidden">
-              {/* Before/After slider */}
-              <BeforeAfterSlider
-                beforeSrc={project.beforeSrc}
-                afterSrc={project.afterSrc}
-                beforeAlt={`Antes: ${project.alt}`}
-                afterAlt={`Depois: ${project.alt}`}
-              />
-              {/* Project info */}
-              <div className="p-5 sm:p-6">
-                <h3 className="text-lg font-bold font-display text-primary mb-2">
-                  {project.title}
-                </h3>
-                <p className="text-text-light text-sm leading-relaxed">
-                  {project.description}
-                </p>
-              </div>
+        {property.investment.projects && property.investment.projects.length > 0 && (
+          <>
+            <div className="text-center mb-8">
+              <h3 className="text-2xl font-bold font-display text-primary mb-2">
+                Arraste para ver a <span className="gradient-text">transformação</span>
+              </h3>
+              <p className="text-text-light text-sm">
+                Mova o controle deslizante para comparar o antes e depois dos projetos
+              </p>
             </div>
-          ))}
-        </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-14">
+              {property.investment.projects.map((project, i) => (
+                <div key={i} className="glass-card overflow-hidden">
+                  {/* Before/After slider */}
+                  <BeforeAfterSlider
+                    beforeSrc={project.beforeSrc}
+                    afterSrc={project.afterSrc}
+                    beforeAlt={`Antes: ${project.alt}`}
+                    afterAlt={`Depois: ${project.alt}`}
+                  />
+                  {/* Project info */}
+                  <div className="p-5 sm:p-6">
+                    <h3 className="text-lg font-bold font-display text-primary mb-2">
+                      {project.title}
+                    </h3>
+                    <p className="text-text-light text-sm leading-relaxed">
+                      {project.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </>
+        )}
 
         {/* Advantages grid */}
         <div className="max-w-4xl mx-auto mb-12">
