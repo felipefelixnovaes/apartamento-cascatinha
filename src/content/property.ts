@@ -338,7 +338,6 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     { src: '/images/gallery/16-terraco.png', alt: 'Terraço coberto amplo e arejado', category: 'Terraço Gourmet' },
     { src: '/images/gallery/17-terraco-pia.png', alt: 'Área de apoio do terraço com pia', category: 'Terraço Gourmet' },
     { src: '/images/hero-bg-v2.png', alt: 'Vista limpa e ampla do terraço coberto', category: 'Terraço Gourmet' },
-    { src: '/images/gallery/20-terraco.jpeg', alt: 'Terraço espaçoso para lazer', category: 'Terraço Gourmet' },
     { src: '/images/gallery/21-terraco-balcao2.jpeg', alt: 'Detalhe do balcão no terraço', category: 'Terraço Gourmet' },
     { src: '/images/gallery/22-terraco-pia2.jpeg', alt: 'Pia e área de serviço externa no terraço', category: 'Terraço Gourmet' },
     { src: '/images/gallery/23-terraco.jpeg', alt: 'Área coberta do terraço superior', category: 'Terraço Gourmet' },
@@ -355,7 +354,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     { src: '/images/gallery/35-escada-cima.jpeg', alt: 'Vista inferior da escada de acesso', category: 'Escadas' },
     { src: '/images/gallery/36-escada-descendo.jpeg', alt: 'Escada interna com acabamento diferenciado', category: 'Escadas' },
 
-    { src: '/images/gallery/improved_bathroom.png', alt: 'Terceiro banheiro reformado', category: 'Corredores e Banheiros' },
+    { src: '/images/gallery/improved_bathroom.png', alt: 'Banheiro completo do segundo andar', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/39-banheiro3-pia.jpeg', alt: 'Pia e mobiliário do terceiro banheiro', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/40-banheiro3-geral.jpeg', alt: 'Visão geral do banheiro completo', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/41-banheiro3-amplo.jpeg', alt: 'Banheiro muito bem conservado no andar superior', category: 'Corredores e Banheiros' },
