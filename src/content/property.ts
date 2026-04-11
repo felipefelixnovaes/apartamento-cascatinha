@@ -338,7 +338,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     { src: '/images/gallery/16-terraco.png', alt: 'Terraço coberto amplo e arejado', category: 'Terraço Gourmet' },
     { src: '/images/gallery/17-terraco-pia.png', alt: 'Área de apoio do terraço com pia', category: 'Terraço Gourmet' },
     { src: '/images/gallery/18-terraco-balcao.png', alt: 'Terraço com balcão de alvenaria e acabamento limpo', category: 'Terraço Gourmet' },
-    { src: '/images/hero-bg.png', alt: 'Vista limpa e ampla do terraço coberto', category: 'Terraço Gourmet' },
+    { src: '/images/hero-bg-v2.png', alt: 'Vista limpa e ampla do terraço coberto', category: 'Terraço Gourmet' },
     { src: '/images/gallery/20-terraco.jpeg', alt: 'Terraço espaçoso para lazer', category: 'Terraço Gourmet' },
     { src: '/images/gallery/21-terraco-balcao2.jpeg', alt: 'Detalhe do balcão no terraço', category: 'Terraço Gourmet' },
     { src: '/images/gallery/22-terraco-pia2.jpeg', alt: 'Pia e área de serviço externa no terraço', category: 'Terraço Gourmet' },
@@ -376,7 +376,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     title: 'Cobertura à Venda no Cascatinha | Juiz de Fora — 3 Quartos, 120m²',
     description:
       'Cobertura exclusiva no Cascatinha, Juiz de Fora. 120m², 3 quartos, 2 banheiros, terraço gourmet, 1 vaga. Localização estratégica próxima a universidades e shopping. Agende sua visita!',
-    ogImage: '/images/hero-bg.png',
+    ogImage: '/images/hero-bg-v2.png',
   },
 } as const;
 

@@ -22,7 +22,7 @@ export default function HeroSection() {
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <Image
-        src="/images/hero-bg.png"
+        src="/images/hero-bg-v2.png"
         alt="Cobertura no Cascatinha com vista para o verde"
         fill
         className="object-cover"
