@@ -337,7 +337,6 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     { src: '/images/gallery/15-cozinha-panoramica.png', alt: 'Visão panorâmica da cozinha e acessos', category: 'Cozinha e Despensa' },
     { src: '/images/gallery/16-terraco.png', alt: 'Terraço coberto amplo e arejado', category: 'Terraço Gourmet' },
     { src: '/images/gallery/17-terraco-pia.png', alt: 'Área de apoio do terraço com pia', category: 'Terraço Gourmet' },
-    { src: '/images/gallery/18-terraco-balcao.png', alt: 'Terraço com balcão de alvenaria e acabamento limpo', category: 'Terraço Gourmet' },
     { src: '/images/hero-bg-v2.png', alt: 'Vista limpa e ampla do terraço coberto', category: 'Terraço Gourmet' },
     { src: '/images/gallery/20-terraco.jpeg', alt: 'Terraço espaçoso para lazer', category: 'Terraço Gourmet' },
     { src: '/images/gallery/21-terraco-balcao2.jpeg', alt: 'Detalhe do balcão no terraço', category: 'Terraço Gourmet' },
