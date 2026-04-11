@@ -356,7 +356,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
 
     { src: '/images/gallery/improved_bathroom.png', alt: 'Banheiro completo do segundo andar', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/39-banheiro3-pia.jpeg', alt: 'Pia e mobiliário do terceiro banheiro', category: 'Corredores e Banheiros' },
-    { src: '/images/gallery/40-banheiro3-geral.jpeg', alt: 'Visão geral do banheiro completo', category: 'Corredores e Banheiros' },
+    { src: '/images/gallery/40-banheiro3-geral.png', alt: 'Banheiro social amplo e organizado', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/41-banheiro3-amplo.jpeg', alt: 'Banheiro muito bem conservado no andar superior', category: 'Corredores e Banheiros' },
   ],
 
