@@ -343,7 +343,7 @@ Ofertado hoje por um valor estrategicamente abaixo do mercado, investidores que 
     { src: '/images/gallery/22-terraco-pia2.jpeg', alt: 'Pia e área de serviço externa no terraço', category: 'Terraço Gourmet' },
     { src: '/images/gallery/23-terraco.jpeg', alt: 'Área coberta do terraço superior', category: 'Terraço Gourmet' },
     { src: '/images/gallery/24-corredor2.jpeg', alt: 'Corredor de acesso no segundo andar', category: 'Corredores e Banheiros' },
-    { src: '/images/gallery/25-banheiro2.jpeg', alt: 'Banheiro superior completo', category: 'Corredores e Banheiros' },
+    { src: '/images/gallery/25-banheiro2.png', alt: 'Banheiro superior completo e organizado', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/26-banheiro-pia2.jpeg', alt: 'Detalhe da pia do banheiro superior', category: 'Corredores e Banheiros' },
     { src: '/images/gallery/improved_room_1.png', alt: 'Quarto superior amplo', category: 'Quartos' },
     { src: '/images/gallery/improved_room_2.png', alt: 'Quarto superior reformado', category: 'Quartos' },
